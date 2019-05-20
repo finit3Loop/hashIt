@@ -40,7 +40,7 @@
         </nav>
       </header>
 	<div>	
-		<form>
+		<form action = "/hasher.java" >
  	 First name:<br>
   			<input type="text" name="firstname"><br>
   			Last name:<br>
