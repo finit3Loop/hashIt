@@ -15,6 +15,7 @@
     <link href="${stylesCss}" rel="stylesheet">
     <link href="${gradientsCss}" rel="stylesheet">
   </head>
+  <!-- 
   <body class="">
     <div class="wrapper">
       <div class="graphics">
@@ -28,7 +29,7 @@
           </svg>
         </div>
       </div>
-
+ -->
       <header>
         <nav class="website-nav">
           <ul>
