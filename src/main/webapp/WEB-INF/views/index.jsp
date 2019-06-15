@@ -41,7 +41,7 @@
         </nav>
       </header>
 	<div>	
-		<form action = "/hasher.java" method="post" >
+		<form action = "/hasher.java" method="POST" >
  	 		First name:<br>
   			<input type="text" name="firstname"><br>
   			Last name:<br>
@@ -62,6 +62,6 @@
       <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Elburn.</p>
     </footer>
 
-    <script src={$setBackgroundJs}"></script>
+    <script src={$setBackgroundJs}></script>
   </body>
 </html>
