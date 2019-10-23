@@ -14,9 +14,9 @@ public class Hasher extends HttpServlet {
 	PrintWriter out -  response.getWriter();
 	
 	String fn = request.getParameter("firstname");
-	String ln = request.getParameter("firstname");
+	String ln = request.getParameter("lastname");
 	
-	out.println(nm + ln);
+	out.println(nm + " " + ln);
 	
 	}
 	
@@ -27,7 +27,8 @@ public class Hasher extends HttpServlet {
 	PrintWriter out -  response.getWriter();
 	
 	String fn = request.getParameter("firstname");
-	String ln = request.getParameter("firstname");
+	String ln = request.getParameter("lastname");
+	out.println(nm + " " + ln);
 	}
 	private String hash(String password) {
 		String generatedPassword = null;
