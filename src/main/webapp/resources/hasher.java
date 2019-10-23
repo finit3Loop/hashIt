@@ -1,9 +1,34 @@
 package com.hasher;
 
+import java.io.PrintWriter;
 import java.security.*;
+import java.util.*;
+import javax.servlet.*;
+import 
+public class Hasher extends HttpServlet {
 
-public class Hasher {
-
+	@Override
+	protected void doGet(HttpServevlet request, HttpServletResponse response) throws ServletException
+	{
+	response.setContentType();
+	PrintWriter out -  response.getWriter();
+	
+	String fn = request.getParameter("firstname");
+	String ln = request.getParameter("firstname");
+	
+	out.println(nm + ln);
+	
+	}
+	
+	@Override
+	protected void doPost(HttpServevlet request, HttpServletResponse response) throws ServletException
+	{
+	response.setContentType();
+	PrintWriter out -  response.getWriter();
+	
+	String fn = request.getParameter("firstname");
+	String ln = request.getParameter("firstname");
+	}
 	private String hash(String password) {
 		String generatedPassword = null;
 		try {

@@ -43,7 +43,7 @@
         </nav>
       </header>
 	<div>	
-		<form action = "/Hasher.java" method="POST" class="form-style-6">
+		<form action = "/Hasher" method="POST" class="form-style-6">
  	 		First name:<br>
   			<input type="text" name="firstname"><br>
   			Last name:<br>
