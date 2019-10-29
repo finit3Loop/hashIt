@@ -11,8 +11,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/hashIT")
 public class HasherController {
-
-	//new test
     
 	private final String siteName;
 
