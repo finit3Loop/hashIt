@@ -1,7 +1,7 @@
 package com.aws.codestar.projecttemplates.controller;
 
 
-	
+import javax.servlet.http.HttpServlet;
 	
 
 import java.io.PrintWriter;
@@ -11,6 +11,10 @@ import javax.*;
 
 public class Hasher2 extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Override
 	protected void doGet(HttpServevlet request, HttpServletResponse response) throws ServletException
 	{
