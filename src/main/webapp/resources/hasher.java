@@ -4,7 +4,6 @@ import java.io.PrintWriter;
 import java.security.*;
 import java.util.*;
 import javax.servlet.*;
-import 
 public class Hasher extends HttpServlet {
 
 	@Override

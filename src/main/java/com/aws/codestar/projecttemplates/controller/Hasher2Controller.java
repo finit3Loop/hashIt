@@ -9,21 +9,19 @@ import org.springframework.web.servlet.ModelAndView;
  * Hashing controller Spring MVC controller that handles all GET requests.
  */
 @Controller
-@RequestMapping("/hashIT")
-public class HasherController {
+@RequestMapping("/Hasher2")
+public class Hasher2Controller {
 
-	//asdf
-    
-	private final String siteName;
+    private final String siteName2;
 
-    public HasherController(final String siteName) {
-        this.siteName = siteName;
+    public Hasher2Controller(final String siteName2) {
+        this.siteName2 = siteName2;
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView helloWorld() {
-        ModelAndView mav = new ModelAndView("index");
-        mav.addObject("siteName", this.siteName);
+        ModelAndView mav = new ModelAndView("Hasher2");
+        mav.addObject("siteName", this.siteName2);
         return mav;
     }
 
