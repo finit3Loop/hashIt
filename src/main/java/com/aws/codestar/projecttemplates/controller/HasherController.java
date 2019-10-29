@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/hashIT")
 public class HasherController {
 
-	//asdf
+	//new test
     
 	private final String siteName;
 
