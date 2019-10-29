@@ -1,19 +1,19 @@
 package com.aws.codestar.projecttemplates.controller;
 
-
-import javax.servlet.http.HttpServlet;
 	
 
 import java.io.PrintWriter;
 import java.security.*;
 import java.util.*;
 import javax.*;
+import javax.servlet.http.HttpServlet;
+
 
 public class Hasher2 extends HttpServlet {
 
 	/**
 	 * 
-	 */
+	 
 	private static final long serialVersionUID = 1L;
 	@Override
 	protected void doGet(HttpServevlet request, HttpServletResponse response) throws ServletException
@@ -69,10 +69,10 @@ public class Hasher2 extends HttpServlet {
 }
 	
 	
-}
+};
 
 
-/*  FOR REFERENCE
+  FOR REFERENCE
 
 
 
@@ -133,7 +133,7 @@ public class HelloWorldControllerTest {
 
 */
 
-
+};
 
 
 
