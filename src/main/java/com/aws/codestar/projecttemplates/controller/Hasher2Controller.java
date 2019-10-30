@@ -18,7 +18,7 @@ public class Hasher2Controller {
         this.siteName2 = siteName2;
     }
 
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.GET)
     public ModelAndView helloWorld() {
         ModelAndView mav = new ModelAndView("Hasher2");
         mav.addObject("siteName2", this.siteName2);
