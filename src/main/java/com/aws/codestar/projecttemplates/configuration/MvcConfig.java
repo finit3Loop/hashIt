@@ -31,6 +31,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         bean.setSuffix(".jsp");
         return bean;
     }
+    
 
     @Bean(name = "multipartResolver")
     public CommonsMultipartResolver getMultipartResolver() {
