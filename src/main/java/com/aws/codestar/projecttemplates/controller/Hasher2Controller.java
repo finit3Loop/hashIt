@@ -18,10 +18,10 @@ public class Hasher2Controller {
         this.siteName2 = siteName2;
     }
 
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.POST)
     public ModelAndView helloWorld() {
         ModelAndView mav = new ModelAndView("Hasher2");
-        mav.addObject("siteName", this.siteName2);
+        mav.addObject("siteName2", this.siteName2);
         return mav;
     }
 
