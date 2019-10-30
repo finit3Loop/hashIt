@@ -32,7 +32,7 @@ public class HelloWorldController {
 	
 	public String HasherController2() {
 		System.out.println("Hasher 2 controller");
-		return "Hasher2.jsp";
+		return "Hasher2";
     }
 	
 }
