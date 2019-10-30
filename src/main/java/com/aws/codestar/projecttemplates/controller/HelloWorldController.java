@@ -27,11 +27,13 @@ public class HelloWorldController {
     }
     
 	@RequestMapping("/Hasher2")
-	@ResponseBody
+	
+	
 	
 	public String HasherController2() {
 		System.out.println("Hasher 2 controller");
-		return "Hasher2";
-	}
+		return "Hasher2.jsp";
+    }
+	
 }
 
