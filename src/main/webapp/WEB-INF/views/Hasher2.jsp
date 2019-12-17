@@ -17,11 +17,7 @@
         <nav class="website-nav">
           <ul>
             <li><a href="http://jarretpiper.com">Home</a></li>
-             <!-- 
-            <li><a href="https://aws.amazon.com/what-is-cloud-computing/">About</a></li>
-            <li><a href="https://aws.amazon.com/solutions/">Services</a></li>
-            <li><a href="https://aws.amazon.com/contact-us/">Contact</a></li>
-          	 ---> 
+            
           </ul>
         </nav>
       </header>
