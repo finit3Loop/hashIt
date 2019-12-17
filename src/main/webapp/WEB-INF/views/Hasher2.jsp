@@ -25,18 +25,8 @@
           </ul>
         </nav>
       </header>
-      
-     <h1>Congratulations!</h1>
-     <h2>You just created a Java Spring web application.</h2>
-      
-		
-		<form action = "/Hasher2" method="POST" class="form-style-6">
- 	 		First name:<br>
-  			<input type="text" name="firstname"><br>
-  			Last name:<br>
-  			<input type="text" name="lastname">
-  			<input type="submit" value="Submit">
-		</form> 
+       
+		<p>New Hasher 2 page</p>
 	
 
       
