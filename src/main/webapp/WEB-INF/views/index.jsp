@@ -49,16 +49,16 @@
   			Last name:<br>
   			<input type="text" name="lastname">
   			<input type="submit" value="Submit">
-		</form> 
-	</div>
+		</form>
+		
+<!-- 		<form action = "main.jsp" method = "POST" target = "_blank">
+         <input type = "checkbox" name = "maths" checked = "checked" /> Maths
+         <input type = "checkbox" name = "physics"  /> Physics
+         <input type = "checkbox" name = "chemistry" checked = "checked" /> Chemistry
+         <input type = "submit" value = "Select Subject" />
+      </form> -->
+		
 
-      <div>
-      	<div>
-          <h1>Congratulations!</h1>
-          <h2>You just created a Java Spring web application.</h2>
-        </div>
-      </div>
-    </div>
 
     <footer>
       <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Elburn.</p>
