@@ -35,13 +35,13 @@ public class HelloWorldController {
 //    	
 //    }
 //   
-//	@RequestMapping("/Hasher2")
-//	
-//	
-//	
-//	public String HasherController2() {
-//		System.out.println("Hasher 2 controller");
-//		return "Hasher2";
-//    }
+	@RequestMapping("/Hasher2")
+	
+	
+	
+	public String HasherController2() {
+		System.out.println("Hasher 2 controller");
+		return "Hasher2";
+    }
 	
 }
