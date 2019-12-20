@@ -15,26 +15,26 @@ import org.springframework.ui.Model;
 @RequestMapping("/")
 public class HelloWorldController {
 
-	private final String siteName;
+    private final String siteName;
 
-	public HelloWorldController(final String siteName) {
-		this.siteName = siteName;
-	}
+    public HelloWorldController(final String siteName) {
+        this.siteName = siteName;
+    }
 
-	@GetMapping("/")
+    @GetMapping("/")
     public ModelAndView helloWorld() {
         ModelAndView mav = new ModelAndView("index");
         mav.addObject("siteName", this.siteName);
         return mav;
     }
-
-	@PostMapping("/")
-    public String hasherSubmit(@ModelAttribute Hash "newHash") {
-    	
-    	return "result";
-    	
-    }
-   
+    
+//    @PostMapping("/")
+//    public String hasherSubmit(@ModelAttribute Hash "newHash") {
+//    	
+//    	return "result";
+//    	
+//    }
+//   
 //	@RequestMapping("/Hasher2")
 //	
 //	
