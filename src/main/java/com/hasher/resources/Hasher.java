@@ -1,32 +1,32 @@
 package com.hasher.resources;
 
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.security.*;
 import java.util.*;
 import javax.servlet.*;
+import javax.servlet.http.*;
 public class Hasher extends HttpServlet {
 
-	@Override
-	protected void doGet(HttpServevlet request, HttpServletResponse response) throws ServletException
+	protected void doGet(HttpServlet request, HttpServletResponse response) throws ServletException, Exception
 	{
-	response.setContentType();
+	response.setContentType(null);
 	PrintWriter out =  response.getWriter();
 	
-	String fn = request.getParameter("firstname");
-	String ln = request.getParameter("lastname");
+	String fn = request.getInitParameter("firstname");
+	String ln = request.getInitParameter("lastname");
 	
 	out.println(fn + " " + ln);
 	
 	}
 	
-	@Override
-	protected void doPost(HttpServevlet request, HttpServletResponse response) throws ServletException
+	protected void doPost(HttpServlet request, HttpServletResponse response) throws ServletException, IOException
 	{
-	response.setContentType();
+	response.setContentType(null);
 	PrintWriter out =  response.getWriter();
 	
-	String fn = request.getParameter("firstname");
-	String ln = request.getParameter("lastname");
+	String fn = request.getInitParameter("firstname");
+	String ln = request.getInitParameter("lastname");
 	out.println(fn + " " + ln);
 	}
 	private String hash(String password) {
