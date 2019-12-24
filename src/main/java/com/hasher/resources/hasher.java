@@ -1,4 +1,4 @@
-package com.hasher;
+package com.hasher.resources;
 
 import java.io.PrintWriter;
 import java.security.*;
