@@ -38,13 +38,8 @@
 
 <!-- test for jsp scriptlet -->
 
-<%!
-	public int sum(int a, int b)
-	{
-      return a + b;
-	}
-%>
-4 + 4 = <%= sum(4, 4) %>
+
+
   
     	
 
