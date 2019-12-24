@@ -15,7 +15,7 @@ public class Hasher extends HttpServlet {
 	String fn = request.getParameter("firstname");
 	String ln = request.getParameter("lastname");
 	
-	out.println(nm + " " + ln);
+	out.package com.hasher;println(nm + " " + ln);
 	
 	}
 	
