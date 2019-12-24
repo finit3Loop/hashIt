@@ -10,7 +10,7 @@ public class Hasher extends HttpServlet {
 	protected void doGet(HttpServevlet request, HttpServletResponse response) throws ServletException
 	{
 	response.setContentType();
-	PrintWriter out -  response.getWriter();
+	PrintWriter out =  response.getWriter();
 	
 	String fn = request.getParameter("firstname");
 	String ln = request.getParameter("lastname");
@@ -23,7 +23,7 @@ public class Hasher extends HttpServlet {
 	protected void doPost(HttpServevlet request, HttpServletResponse response) throws ServletException
 	{
 	response.setContentType();
-	PrintWriter out -  response.getWriter();
+	PrintWriter out =  response.getWriter();
 	
 	String fn = request.getParameter("firstname");
 	String ln = request.getParameter("lastname");
