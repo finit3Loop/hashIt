@@ -58,13 +58,7 @@
          <input type = "submit" value = "Select Subject" />
       </form> -->
 		
-<%! import = com.hasher.resources.*;
-	new test = test1;
-	
-	test1.runTest();
 
-
-%>
 
     <footer>
       <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Elburn.</p>
