@@ -37,7 +37,6 @@
 
 
 <% 
-import com.hasher.resources;
 
 out.println("New test for hasher jsp");
 
