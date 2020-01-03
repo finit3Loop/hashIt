@@ -40,6 +40,8 @@
 
 out.println("New test for hasher jsp");
 
+			test test1 = new test();
+				test1.RunTest();
 
  %>
 

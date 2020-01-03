@@ -1,9 +1,9 @@
 package com.hasher.resources;
 
 public class test{
-	public String runTest()
+	public void runTest()
 	{
-		
-	return "test.java";
+		System.out.println("run test from inside class");
+	return ;
 	}
 }
