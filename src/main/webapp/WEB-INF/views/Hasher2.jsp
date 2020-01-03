@@ -36,13 +36,13 @@
 
 
 
-<!-- 
+<% 
 import com.hasher.resources;
 
-Sysout.println("New test for hasher jsp")
+out.println("New test for hasher jsp");
 
 
- -->
+ %>
 
 
 
