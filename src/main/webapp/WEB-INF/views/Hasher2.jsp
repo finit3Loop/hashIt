@@ -36,7 +36,13 @@
 
 
 
-<!-- test for jsp scriptlet -->
+<!-- 
+import com.hasher.resources;
+
+Sysout.println("New test for hasher jsp")
+
+
+ -->
 
 
 
