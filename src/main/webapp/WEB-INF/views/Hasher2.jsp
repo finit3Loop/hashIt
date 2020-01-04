@@ -38,8 +38,8 @@
 <%@ page import="com.hasher.resources.*"
 
 
-			test test1 = new test();
-				test1.RunTest();
+			test test1 = new test()
+				test1.RunTest()
 
  %>
 
