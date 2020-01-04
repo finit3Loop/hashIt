@@ -35,7 +35,7 @@
 
 
 
-<%@ page import="com.hasher.resources.*";
+<%@ page import="com.hasher.resources.*"
 
 System.out.println("New test for hasher jsp");
 
