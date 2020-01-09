@@ -55,7 +55,7 @@
 	<br>
 	<br>
 	<div>
-		<form action = "/Hasher3_index.jsp" class="form-style-6">
+		<form action = "/Hasher3_index.jsp" method="post" class="form-style-6">
  	 		<input type="button" value="Hasher 3">
 		</form>
 	</div>
