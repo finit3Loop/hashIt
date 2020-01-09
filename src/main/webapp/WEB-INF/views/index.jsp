@@ -50,7 +50,15 @@
   			<input type="text" name="lastname">
   			<input type="submit" value="Submit">
 		</form>
-		
+	</div>
+	<br>
+	<br>
+	<br>
+	<div>
+		<form action = "/Hasher3_index.jsp" class="form-style-6">
+ 	 		<input type=button> Hasher 3
+		</form>
+	</div>
 <!-- 		<form action = "main.jsp" method = "POST" target = "_blank">
          <input type = "checkbox" name = "maths" checked = "checked" /> Maths
          <input type = "checkbox" name = "physics"  /> Physics

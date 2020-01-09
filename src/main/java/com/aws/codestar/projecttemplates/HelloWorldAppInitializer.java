@@ -24,7 +24,7 @@ public class HelloWorldAppInitializer extends AbstractAnnotationConfigDispatcher
     @Override
     protected String[] getServletMappings() {
         return new String[] {
-                "/","/Hasher2.jsp"
+                "/","/Hasher2.jsp","/Hasher3_index.jsp","/Hasher3_out.jsp"
         };
     }
 
