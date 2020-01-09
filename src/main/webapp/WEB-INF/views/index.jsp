@@ -56,7 +56,7 @@
 	<br>
 	<div>
 		<form action = "/Hasher3_index.jsp" method="post" class="form-style-6">
- 	 		<input type="button" value="Hasher 3">
+ 	 		<input type="submit" value="Hasher 3">
 		</form>
 	</div>
 <!-- 		<form action = "main.jsp" method = "POST" target = "_blank">
